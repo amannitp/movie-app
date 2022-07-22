@@ -13,7 +13,7 @@ export class Movielist extends Component {
     }
   }
   async componentDidMount(){
-    debugger
+
     const res=await axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=976e5f10590e3b03439a9b009c977abe&language=en-US&page=${this.state.currPage}`)
     //console.log(res.data)
     let movieDataApi=res.data
