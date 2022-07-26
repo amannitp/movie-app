@@ -11,7 +11,7 @@ export class Banner extends Component {
         <img src={`https://image.tmdb.org/t/p/original
 ${backDrop}`} className="card-img-top banner-img" alt="..."/>
           <h5 className="card-title banner-tittle">{tittle}</h5>
-          <p className="card-text banner-text">{description}</p>
+          
       </div>
     )
   }
