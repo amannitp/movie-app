@@ -53,3 +53,9 @@
     display: flex;
     justify-content: center;
 }
+.genere-selector{
+    padding: 3rem;
+}
+.favourate-table{
+    padding: 3rem;
+}
