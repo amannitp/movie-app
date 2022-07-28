@@ -44,6 +44,7 @@ class Favourite extends Component {
             <table class="table">
               <thead>
                 <tr>
+                  <th></th>
                   <th scope="col">Tittle</th>
                   <th scope="col">Genre</th>
                   <th scope="col">Popularity</th>
@@ -51,8 +52,11 @@ class Favourite extends Component {
                 </tr>
               </thead>
               <tbody>
-                {movieData.map((movieObj) => (
+                {movieData.map((movieObj) =>(
                   <tr>
+                    <td>
+                      <img  style={{width:"6rem"}} src={`https://image.tmdb.org/t/p/original${movieObj.backdrop_path}`} />
+                    </td>
                     <th scope="row">{movieObj.title}</th>
                     <td>{genreids[movieObj.genre_ids[0]]}</td>
                     <td>{movieObj.popularity}</td>
