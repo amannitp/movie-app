@@ -1,61 +1,79 @@
 
 
+
+
+
 .banner-card{
+    width: 100vw;
+    margin-top:2vh ;
     height: 70vh;
-    width: 100vh;
-    margin:2vh;
     position: relative;
     margin-bottom: 3vh;
 }
+
+
 .banner-img{
-    height: 70vh;
-    width: 100vw;
+  height: 70vh;
+  width: 100%;
 }
-.banner-tittle{
-    position: absolute;
-    font-size: 45px;
-    top: 50vh;
-    color: white;
-    left:5vw;
+
+
+.banner-title{
+ position: absolute;
+ font-size: 50px;
+ top : 45vh;
+ color: white;
+ left: 5vw;
 }
+
+
 .banner-text{
-    position: absolute;
-    top:58vh;
-    color:white;
-    font-size: 20px;
-    left: 5vw;
-    height:4.5vw;
-    
+  position: absolute;
+  top : 55vh;
+  color : white;
+  font-size:20px ;
+  left: 5vw;
+  height: 4.5vw;
 }
-.movie-list{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1rem;
+
+
+.movies-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
 }
+
+
+
 .movie-card{
-    margin: 1rem;
-    width: 20vw;
+  margin: 1rem;
+  width: 20vw;
+  position: relative;
 }
-.movie-tittle{
-    position: absolute;
-    top: 1rem;
-    color: white;
-    font-size: 1rem;
-    left: 1rem;
+
+
+.movie-title{
+ position : absolute;
+ top : 1rem;
+ left : 1rem;
+ color : white
 }
-.movie-button{
-    position: absolute;
-    left: 5rem;
-    bottom: 1rem;
+
+
+.movies-button{
+  position: absolute;
+  bottom: 2rem;
+  left : 5rem
 }
-.movie-pagination{
-    display: flex;
-    justify-content: center;
+
+
+.genre-selector{
+  padding: 3rem;
 }
-.genere-selector{
-    padding: 3rem;
+
+
+.favourites-table{
+  padding: 3rem;
 }
-.favourate-table{
-    padding: 3rem;
-}
+
